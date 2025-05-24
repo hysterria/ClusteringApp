@@ -191,7 +191,7 @@ class ClusteringApp:
             self.results_text.configure(state='disabled')
             return
 
-        text = "Метрики компактности:\n"
+        text = "Компактность:\n"
         text += "-" * 30 + "\n"
         for name, value in self.results.items():
             text += f"{name[:15]:<15} {value:>8.2f}\n"
